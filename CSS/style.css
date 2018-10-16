@@ -1,0 +1,480 @@
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.imag{
+	width: 100%;
+	position: relative;
+
+}
+
+.arriba-header{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	
+}
+
+.lista i{
+	font-size: 50px;
+	color: white;
+	margin-top: 10px;
+	margin-left:20px;
+	float: left;
+	
+
+} 
+
+.lista ul{
+	list-style: none;
+	margin-left: 600px;
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 0;
+
+}
+
+.lista li{
+	display: inline-block;
+	padding: 10px;
+	color: white;
+
+}
+
+.lista ul li a:hover{
+	color: #9A9797;
+	text-decoration: line-through;
+}
+
+.registrate{
+	text-align: center;
+	margin-top: 250px;
+	background-color: #0C6798;
+	color: white;
+	margin-left: 500px;
+	margin-right: 500px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 50px;
+
+}
+
+.registrate a{
+	text-decoration:none;
+	color: white;
+}
+
+.registrate a:hover{
+	color: #9A9797;
+}
+
+.canciones {
+	color: white;
+	margin-left: 120px;
+	margin-top: 80px;
+	font-size: 30px;
+}
+
+.media{
+	width: 100%;
+	
+}
+
+.media a{
+	text-decoration:none;
+	color: white;
+}
+
+.media a:hover{
+	
+	color: #9A9797;
+}
+
+.media-titulo h1{
+	color: #2468B9;
+	text-align: center;
+}
+
+.card{
+	width: 265px;
+	height: 200px;
+	border: solid;
+	border-width: 1px;
+	display: inline-block;
+	
+	margin-left: 80px;
+	/*margin-left: 135px; 
+
+
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+1,ffffff+46,ffffff+46,ffffff+46,0c6798+46 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(45deg,  rgba(255,255,255,1) 1%, rgba(255,255,255,1) 46%, rgba(255,255,255,1) 46%, rgba(255,255,255,1) 46%, rgba(12,103,152,1) 46%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  rgba(255,255,255,1) 1%,rgba(255,255,255,1) 46%,rgba(255,255,255,1) 46%,rgba(255,255,255,1) 46%,rgba(12,103,152,1) 46%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(10deg,  rgba(255,255,255,1) 1%,rgba(255,255,255,1) 46%,rgba(255,255,255,1) 46%,rgba(255,255,255,1) 46%,rgba(12,103,152,1) 46%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#0c6798',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+
+
+
+}
+
+.card-right{
+	margin-left:190px;
+}
+
+.card h3{
+	text-align: center;
+	padding-top: 30px;
+	color: white;
+}
+
+.card h2{
+	text-align: center;
+	padding-top: 50px;
+	
+}
+
+.final{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#19396c+0,67e8cf+100,67e8cf+100 */
+background: rgb(25,57,108); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(25,57,108,1) 0%, rgba(103,232,207,1) 100%, rgba(103,232,207,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(25,57,108,1) 0%,rgba(103,232,207,1) 100%,rgba(103,232,207,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(25,57,108,1) 0%,rgba(103,232,207,1) 100%,rgba(103,232,207,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#19396c', endColorstr='#67e8cf',GradientType=0 ); /* IE6-9 */
+
+	margin-top: 5%;
+	height: 400px;
+
+}
+
+.margin-final{
+	padding-top: 125px;
+}
+
+
+
+.final h1{
+	margin: 0 auto;
+	margin-left: 25%;
+	color: white;
+
+}
+
+footer{
+	width: 100%;
+}
+
+.fot h4{
+	margin-bottom: 0;
+	background-color: #0C6798;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+
+}
+
+@media screen and (max-width: 480px){
+	body{
+		width: 100%;
+	}
+
+	.imag{
+		width: 100%;
+		height: 500px;
+
+
+	}
+
+	.arriba-header{
+		
+		display: inline;
+		top: 0px;
+		left: 1%;
+		text-align: center;
+		overflow: hidden;
+		width: 100%;
+		align-content: center;
+		margin: 0 auto;
+
+
+	}
+
+	.lista ul{
+		float: none;
+		display: inline-flex;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		/*padding-right: 50px;
+		padding-left: 50px;
+		*/
+		padding-top: 10px;
+		padding-bottom: 10px;
+	
+		font-size: 15px;
+		margin-left: -80px;
+	}
+
+
+
+	.lista ul li{
+		margin-left: 30px;
+
+	}
+
+	.lista{
+		width: 100%;
+
+	}
+
+
+
+	.lista i{
+		font-size: 30px;
+		margin-bottom: 20px;
+		margin-left: 50%;
+		text-align: center;
+		
+		
+	}
+
+	.registrate {
+		margin: 0 auto;
+		font-size: 30px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+
+	}
+
+	.canciones{
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.media{
+		
+		text-align: center;
+		width: 100%
+	}
+
+	.card{
+		margin-bottom: 100px;
+		display: inline-block;
+		margin-left: 10px;
+	}
+
+
+
+	.card-right{
+		margin-left: 10px;
+	}
+
+	.final{
+		height: 600px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	body{
+		width: 100%;
+	}
+
+	.imag{
+		width: 100%;
+		height: 500px;
+
+
+	}
+
+	.arriba-header{
+		
+		display: inline;
+		top: 0px;
+		left: 1%;
+		text-align: center;
+		overflow: hidden;
+		width: 100%;
+		align-content: center;
+		margin: 0 auto;
+
+
+	}
+
+	.lista ul{
+		float: none;
+		display: inline-flex;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		/*padding-right: 50px;
+		padding-left: 50px;
+		*/
+		padding-top: 10px;
+		padding-bottom: 10px;
+	
+		font-size: 15px;
+		margin-left: -80px;
+	}
+
+
+
+	.lista ul li{
+		margin-left: 30px;
+
+	}
+
+	.lista{
+		width: 100%;
+
+	}
+
+
+
+	.lista i{
+		font-size: 30px;
+		margin-bottom: 20px;
+		margin-left: 50%;
+		text-align: center;
+
+		
+		
+	}
+
+	.registrate {
+		margin: 0 auto;
+		font-size: 30px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+
+	}
+
+	.canciones{
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.media{
+		
+		text-align: center;
+		width: 100%
+	}
+
+	.card{
+		margin-bottom: 100px;
+		display: inline-block;
+		margin-left: 10px;
+	}
+
+
+
+	.card-right{
+		margin-left: 10px;
+	}
+
+	.final{
+		height: 600px;
+	}
+}
+
+@media screen and (max-width: 1024px)
+{
+	.imag{
+		width: 100%;
+		height: 500px;
+
+
+	}
+
+	.arriba-header{
+		
+		display: inline;
+		top: 0px;
+		left: 1%;
+		text-align: center;
+		overflow: hidden;
+		width: 100%;
+		align-content: center;
+		margin: 0 auto;
+
+
+	}
+
+	.lista ul{
+		float: none;
+		display: inline-flex;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		/*padding-right: 50px;
+		padding-left: 50px;
+		*/
+		padding-top: 10px;
+		padding-bottom: 10px;
+	
+		font-size: 15px;
+		margin-left: -80px;
+	}
+
+
+
+	.lista ul li{
+		margin-left: 30px;
+
+	}
+
+	.lista{
+		width: 100%;
+
+	}
+
+
+
+	.lista i{
+		font-size: 30px;
+		margin-bottom: 20px;
+		margin-left: 5%;
+		text-align: center;
+
+		
+		
+	}
+
+	.registrate {
+		margin: 0 auto;
+		font-size: 30px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+
+	}
+
+	.canciones{
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.media{
+		
+		text-align: center;
+		width: 100%
+	}
+
+	.card{
+		margin-bottom: 100px;
+		display: inline-block;
+		margin-left: 10px;
+	}
+
+
+
+	.card-right{
+		margin-left: 10px;
+	}
+
+	.final{
+		height: 600px;
+	}
+}
+
+
